@@ -90,6 +90,22 @@
     scroll-behavior: smooth;
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prata&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&family=Yeseva+One&display=swap');
+
+.space-grotesk {
+  font-family: "Space Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.quicksand {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
 
 body {
   margin: 0;
@@ -112,7 +128,12 @@ hr {
   opacity: 0.25;
 }
 
-h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+h1, .h1 
+{
+  font-family: "Space Grotesk", serif;
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2 {
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -167,6 +188,12 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-family: "Quicksand", serif;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  font-family: "Quicksand", serif;
 }
 
 abbr[title] {
@@ -338,6 +365,7 @@ th {
 
 label {
   display: inline-block;
+  font-family: "Quicksand", serif;
 }
 
 button {
@@ -2799,19 +2827,15 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #0085A1;
-  --bs-btn-border-color: #0085A1;
+  --bs-btn-bg: #ffabf0;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #007189;
-  --bs-btn-hover-border-color: #006a81;
+  --bs-btn-hover-bg: #ff72e8;
   --bs-btn-focus-shadow-rgb: 38, 151, 175;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #006a81;
-  --bs-btn-active-border-color: #006479;
+  --bs-btn-active-bg: #ff3af5;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #0085A1;
-  --bs-btn-disabled-border-color: #0085A1;
+  --bs-btn-disabled-bg: #ffabf0;
 }
 
 .btn-secondary {
@@ -3550,6 +3574,7 @@ textarea.form-control-lg {
   font-weight: var(--bs-nav-link-font-weight);
   color: var(--bs-nav-link-color);
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  font-family: "Quicksand", sans-serif;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
@@ -3691,6 +3716,7 @@ textarea.form-control-lg {
   font-size: var(--bs-navbar-brand-font-size);
   color: var(--bs-navbar-brand-color);
   white-space: nowrap;
+  font-family: "Space Grotesk", serif;
 }
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
@@ -10708,7 +10734,7 @@ header.masthead .site-heading .subheading {
   line-height: 1.1;
   display: block;
   margin-top: 0.625rem;
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .post-heading h1, header.masthead .post-heading .h1 {
   font-size: 2.25rem;

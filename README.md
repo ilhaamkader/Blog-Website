@@ -28,7 +28,7 @@ I created this following a tutorial and will be updating it to my own preference
    git clone https://github.com/ilhaamkader/blog-website.git
 2. **Navigate to the project folder:** Use the cd command to go into the project directory:
    ```bash
-   cd UpgradedBlog MAIN
+   cd UpgradedBlog
 Create and activate a virtual environment (optional but recommended):
 
 On Windows:

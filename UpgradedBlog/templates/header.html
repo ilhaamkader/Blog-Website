@@ -8,13 +8,15 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Prata&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&family=Yeseva+One&display=swap" rel="stylesheet">
     <title>Ilhaam's Blog</title>
     {% block styles %}
     <!-- Load Bootstrap-Flask CSS here -->
     {{ bootstrap.load_css() }}
     <link
       rel="icon"
-      type="image/x-icon"
       href="{{ url_for('static', filename='assets/favicon.ico') }}"
     />
     <!-- Font Awesome icons (free version)-->
